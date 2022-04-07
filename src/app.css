@@ -1,0 +1,53 @@
+/* Write your global styles here, in PostCSS syntax */
+@import url('https://fonts.googleapis.com/css2?family=Prompt:wght@100;200;400;600;700&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+    scroll-behavior: smooth;
+    text-rendering: optimizeLegibility;
+}
+
+.anim-slide-fade-x {
+    animation-name: slide-fade-x;
+    animation-duration: 500ms;
+    animation-timing-function: ease;
+    animation-fill-mode: forwards;
+}
+
+.anim-slide-fade-y {
+    animation-name: slide-fade-y;
+    animation-delay: var(--sf-y-delay);
+    animation-duration: 500ms;
+    animation-timing-function: ease;
+    animation-fill-mode: forwards;
+}
+
+@keyframes slide-fade-x {
+
+    0% {
+        opacity: 0;
+        transform: translateX(-25px);
+    }
+    
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+    
+}
+
+@keyframes slide-fade-y {
+
+    0% {
+        opacity: 0;
+        transform: translateY(-25px);
+    }
+    
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+    
+}
