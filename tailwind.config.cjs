@@ -5,7 +5,7 @@ const config = {
     extend: {
       fontFamily: {
         sans: ["Prompt", "sans-serif"],
-      }
+      },
     },
   },
 
