@@ -1,6 +1,8 @@
 import preprocess from "svelte-preprocess";
 import adapter from '@sveltejs/adapter-static';
 
+const dev = "production" === "development";
+
 /** @type {import('@sveltejs/kit').Config} */
 const config = {
   // Consult https://github.com/sveltejs/svelte-preprocess
@@ -12,17 +14,18 @@ const config = {
   ],
 
   kit: {
-    // hydrate the <div id="svelte"> element in src/app.html
-    target: '#svelte',
     adapter: adapter({
-      pages: 'build',
-      assets: 'build',
-      fallback: null
+      pages: "dist",
+      assets: "dist"
     }),
+    paths: {
+      // change below to your repo name
+      base: dev ? "" : "/1ndiigo.github.io",
+    },
     prerender: {
       default: true
-    },
-  },
+    }
+  }
 };
 
 export default config;
