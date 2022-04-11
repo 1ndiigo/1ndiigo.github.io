@@ -6,11 +6,11 @@
 		<link rel="icon" href="./favicon.png" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<meta http-equiv="content-security-policy" content=""><title>Home</title><script src="https://kit.fontawesome.com/1bb5768b66.js" crossorigin="anonymous" data-svelte="svelte-650amo"></script>
-	<link rel="stylesheet" href="/_app/assets/pages/__layout.svelte-880fbb42.css">
-	<link rel="modulepreload" href="/_app/start-a71b0866.js">
-	<link rel="modulepreload" href="/_app/chunks/index-f2b5019b.js">
-	<link rel="modulepreload" href="/_app/pages/__layout.svelte-11bb0160.js">
-	<link rel="modulepreload" href="/_app/pages/index.svelte-5894f39c.js">
+	<link rel="stylesheet" href="/_app/assets/pages/__layout.svelte-63f7b229.css">
+	<link rel="modulepreload" href="/_app/start-2adb9420.js">
+	<link rel="modulepreload" href="/_app/chunks/index-800f474b.js">
+	<link rel="modulepreload" href="/_app/pages/__layout.svelte-0750ba1f.js">
+	<link rel="modulepreload" href="/_app/pages/index.svelte-5f8a114f.js">
 	</head>
 	<body>
 		<div>
@@ -18,26 +18,29 @@
 
 
 
-<header></header>
+<nav class="w-full flex items-center justify-center py-2 fixed top-0 z-50"><a href="#top" class="font-mono text-white text-lg">&lt;indigo/&gt;</a></nav>
 
 <main class="overflow-hidden">
 
 
 
-<section class="transition-all duration-500 bg-indigo-700"><div id="heading" class="flex flex-col items-center justify-between w-full h-screen"><nav class="w-full flex items-center justify-center py-2 fixed"><a href="/#top" class="font-mono text-white text-lg">&lt;indigo/&gt;</a></nav>
-		<div id="top"></div>
-		<h1 class="text-white font-semibold text-6xl anim-slide-fade-x transition-all block">lazy devs = best devs
-		</h1>
-		<div class="flex flex-col items-center justify-center py-4 transition-all opacity-100"><p class="text-white font-medium text-lg pb-2">Scroll down!</p>
+<section class="transition-all duration-500 bg-indigo-700"><div id="heading" class="flex flex-col items-center justify-between w-full h-screen relative"><div id="top"></div>
+		<div class="opacity-100 transition-all"><i class="fa-solid fa-circle absolute text-[32rem] opacity-5 z-0 text-white -top-32 -left-64"></i>
+			<i class="fa-solid fa-circle absolute text-[32rem] opacity-5 z-0 text-white top-1/4 -right-64"></i>
+			<h1 class="text-white font-semibold text-5xl md:text-6xl slide-fade-x transition-all px-16">lazy devs = best devs
+			</h1></div>
+		<div class="flex flex-col items-center justify-center py-4 transition-all "><p class="text-white font-medium text-lg pb-2">Scroll down!</p>
 			<i class="fa-solid fa-arrow-down-long text-white animate-bounce"></i></div></div>
 	
 	<div class="py-96"></div></section></main>
 
+<footer></footer>
 
-		<script type="module" data-hydrate="7mewz8">
-		import { start } from "/_app/start-a71b0866.js";
+
+		<script type="module" data-hydrate="2qu7ad">
+		import { start } from "/_app/start-2adb9420.js";
 		start({
-			target: document.querySelector('[data-hydrate="7mewz8"]').parentNode,
+			target: document.querySelector('[data-hydrate="2qu7ad"]').parentNode,
 			paths: {"base":"","assets":""},
 			session: {},
 			route: true,
@@ -47,8 +50,8 @@
 				status: 200,
 				error: null,
 				nodes: [
-					import("/_app/pages/__layout.svelte-11bb0160.js"),
-						import("/_app/pages/index.svelte-5894f39c.js")
+					import("/_app/pages/__layout.svelte-0750ba1f.js"),
+						import("/_app/pages/index.svelte-5f8a114f.js")
 				],
 				params: {},
 				routeId: ""
