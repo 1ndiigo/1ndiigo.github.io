@@ -32,10 +32,10 @@
             style="--sf-y-delay:500ms;"
             class="w-screen md:w-1/5 px-8 md:px-0 mb-16 md:m-0 slide-fade-y opacity-0"
         >
-            <p class="text-white w-full text-center mb-8 text-xl md:text-2xl">
+            <p class="text-white w-full text-center mb-8 text-xl md:text-2xl" data-nosnippet>
                 Gamer
             </p>
-            <p class="text-white font-extralight">
+            <p class="text-white font-extralight" data-nosnippet>
                 I love video games. My current favourites are Minecraft and
                 Cities Skylines.
             </p>

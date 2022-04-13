@@ -5,6 +5,7 @@
 
 <svelte:head>
 	<script src="https://kit.fontawesome.com/1bb5768b66.js" crossorigin="anonymous"></script>
+	<meta name="description" content="The Home of Indigo Development">
 </svelte:head>
 
 <Header />
