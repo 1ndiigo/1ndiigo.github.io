@@ -9,7 +9,7 @@
 </script>
 
 <svelte:head>
-	<title>Home</title>
+	<title>Indigo Development</title>
 </svelte:head>
 
 <svelte:window bind:scrollY />
@@ -32,5 +32,4 @@
 	{#if scrollY > 50}
 		<About {scrollY} />
 	{/if}
-	<div class="py-96" />
 </section>

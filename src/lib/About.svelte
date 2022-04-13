@@ -23,7 +23,7 @@
                 Web Development
             </p>
             <p class="text-white font-extralight">
-                I am an avid web developer, trying to pick up web3 technologies.
+                I am an avid web developer, trying to pick up Web3 technologies.
                 My preferred frameworks are Vue.js and Svelte, especially when
                 combined with Typescript ❤️.
             </p>
