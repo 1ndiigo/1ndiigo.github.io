@@ -32,4 +32,5 @@
 	{#if scrollY > 50}
 		<About {scrollY} />
 	{/if}
+	<div class="py-16"></div>
 </section>
