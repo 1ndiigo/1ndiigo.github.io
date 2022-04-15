@@ -1,4 +1,4 @@
-<footer class="bg-zinc-900 flex justify-between items-center pb-8">
+<footer class="bg-zinc-900 flex justify-center items-center pb-8">
     <div>
         <a href="https://github.com/1ndiigo">
             <i class="fa-brands fa-github px-2 text-white text-2xl" />
