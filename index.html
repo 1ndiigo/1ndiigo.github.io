@@ -6,17 +6,16 @@
 		<link rel="icon" href="./favicon.png" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<meta http-equiv="X-UA-Compatible" content="ie=edge">
-		<meta name="robots" content="noindex,nofollow">
 		<meta name="google" content="nositelinkssearchbox" />
 		<meta name="googlebot" content="notranslate" />
 		<meta name="google-site-verification" content="XcFZea0vbm4FUJIjX3GOBEXEcwqdBob-b3OwBD6g0bk" />
 		<meta name="og:image" content="https://1ndiigo.github.io/indigo.png">
 		<meta http-equiv="content-security-policy" content=""><title>Home | Indigo Development</title><script src="https://kit.fontawesome.com/1bb5768b66.js" crossorigin="anonymous" data-svelte="svelte-w878ru"></script><meta name="description" content="The Home of Indigo Development" data-svelte="svelte-w878ru">
-	<link rel="stylesheet" href="/_app/assets/pages/__layout.svelte-2b29dba4.css">
-	<link rel="modulepreload" href="/_app/start-459373f8.js">
-	<link rel="modulepreload" href="/_app/chunks/index-86dde7e8.js">
-	<link rel="modulepreload" href="/_app/pages/__layout.svelte-e937d12b.js">
-	<link rel="modulepreload" href="/_app/pages/index.svelte-1877cacb.js">
+	<link rel="stylesheet" href="/_app/immutable/assets/pages/__layout.svelte-e2789125.css">
+	<link rel="modulepreload" href="/_app/immutable/start-f5f1b0f2.js">
+	<link rel="modulepreload" href="/_app/immutable/chunks/index-a2cfe855.js">
+	<link rel="modulepreload" href="/_app/immutable/pages/__layout.svelte-efd2ba0f.js">
+	<link rel="modulepreload" href="/_app/immutable/pages/index.svelte-54a87a22.js">
 	</head>
 	<body>
 		<div>
@@ -26,28 +25,36 @@
 
 
 
-<nav class="w-full flex items-center justify-center py-2 fixed top-0 z-50"><a href="#top" class="font-mono text-white text-lg">&lt;indigo/&gt;</a></nav>
+<nav class="w-full flex items-center justify-around py-2 fixed top-0 z-50"><a href="/#about" class="font-mono text-white text-lg backdrop-blur-sm rounded-full">about</a>
+	<a href="/#top" class="font-mono text-white text-xl backdrop-blur-sm rounded-full">&lt;indigo/&gt;</a>
+	<a href="/" class="font-mono text-white text-lg backdrop-blur-sm rounded-full">projects</a></nav>
 
 <main class="overflow-hidden">
 
 
 
-<section class="transition-all duration-500 bg-indigo-700"><div id="heading" class="flex flex-col items-center justify-between w-full h-[calc(100vh+100px)] flex-shrink relative"><div id="top"></div>
-		<div class="opacity-100 transition-all"><i class="fa-solid fa-circle absolute text-[32rem] opacity-5 z-0 text-white -top-32 -left-64"></i>
-			<i class="fa-solid fa-circle absolute text-[32rem] opacity-5 z-0 text-white top-1/4 -right-64"></i>
-			<h1 class="text-white font-semibold text-5xl md:text-6xl lg:text-7xl slide-fade-x transition-all px-16 text-center">lazy devs<br>=<br>best devs
-			</h1></div>
-		<div class="flex flex-col items-center justify-center py-4 transition-all -translate-y-24 "><p class="text-white font-medium text-lg pb-2">Scroll down!</p>
-			<i class="fa-solid fa-arrow-down-long text-white animate-bounce"></i></div></div>
-	</section></main>
+<section class="transition-all duration-500 bg-indigo-700"><div id="heading" class="flex flex-col items-center justify-between w-full h-[calc(100vh+300px)] flex-shrink relative"><div id="top"></div>
+        <div class="opacity-100 transition-all"><i class="fa-solid fa-circle absolute text-[32rem] opacity-5 z-0 text-white -top-32 -left-64"></i>
+            <i class="fa-solid fa-circle absolute text-[32rem] opacity-5 z-0 text-white top-1/4 -right-64"></i>
+            <h1 class="text-white font-semibold text-5xl md:text-6xl lg:text-7xl slide-fade-x transition-all px-16 text-center">lazy devs are the <br>
+                best devs
+            </h1>
+            <p class="text-white text-2xl lg:text-3xl slide-fade-x transition-all pt-8 text-opacity-40 text-center">Conveniently, I&#39;m pretty lazy
+            </p></div>
+        <div class="flex flex-col items-center justify-center py-4 transition-all -translate-y-24 "><p class="text-white font-medium text-lg pb-2">Scroll down!</p>
+            <i class="fa-solid fa-arrow-down-long text-white animate-bounce"></i></div></div>
+    
+    <div id="about"></div></section></main>
+
+<footer class="bg-zinc-900 flex justify-center items-center pb-8 z-50 relative"><div><a href="https://github.com/1ndiigo"><i title="GitHub" class="fa-brands fa-github px-2 text-white text-2xl"></i></a>
+        <a href="https://instagram.com/geode.dev"><i title="Instagram" class="fa-brands fa-instagram px-2 text-white text-2xl"></i></a>
+        <a href="https://discord.gg/3znQkj837T"><i title="Discord" class="fa-brands fa-discord px-2 text-white text-2xl"></i></a></div></footer>
 
 
-
-
-		<script type="module" data-hydrate="1m7y6if">
-		import { start } from "/_app/start-459373f8.js";
+		<script type="module" data-sveltekit-hydrate="1xa22vv">
+		import { start } from "/_app/immutable/start-f5f1b0f2.js";
 		start({
-			target: document.querySelector('[data-hydrate="1m7y6if"]').parentNode,
+			target: document.querySelector('[data-sveltekit-hydrate="1xa22vv"]').parentNode,
 			paths: {"base":"","assets":""},
 			session: {},
 			route: true,
@@ -56,10 +63,7 @@
 			hydrate: {
 				status: 200,
 				error: null,
-				nodes: [
-					import("/_app/pages/__layout.svelte-e937d12b.js"),
-						import("/_app/pages/index.svelte-1877cacb.js")
-				],
+				nodes: [0, 2],
 				params: {},
 				routeId: ""
 			}
