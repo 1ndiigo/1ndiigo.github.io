@@ -10,6 +10,10 @@
     --sf-y-opacity: 1;
 }
 
+::-webkit-scrollbar-track {
+	background-color: transparent;
+}
+
 .slide-fade-x {
 	animation-name: slide-fade-x;
 	animation-duration: 500ms;

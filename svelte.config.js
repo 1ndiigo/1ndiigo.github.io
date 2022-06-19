@@ -20,7 +20,7 @@ const config = {
     }),
     paths: {
       // change below to your repo name
-      base: dev ? "" : "/1ndiigo.github.io",
+      base: dev ? "" : "",
     },
     prerender: {
       default: true
