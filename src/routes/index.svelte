@@ -1,11 +1,13 @@
-<script context="module" lang="ts">
-    export const prerender = true;
-</script>
-
 <script lang="ts">
     import About from '$lib/About.svelte';
+    import { darkMode } from "../stores";
 
     let scrollY = 0;
+
+	let bgColor: string; 
+    darkMode.subscribe(value => {
+		bgColor = value ? "bg-zinc-900" : "bg-zinc-200"
+	})
 </script>
 
 <svelte:head>
@@ -21,18 +23,18 @@
 <section
     class="transition-all duration-500 {scrollY < 50
         ? 'bg-indigo-700'
-        : 'bg-zinc-900'}">
+        : bgColor}">
     <div
         id="heading"
         class="flex flex-col items-center justify-between w-full h-[calc(100vh+300px)] flex-shrink relative">
         <div id="top" />
         <div
             class="{scrollY < 50 ? 'opacity-100' : 'opacity-0'} transition-all">
-            <i
+            <i defer
                 class="fa-solid fa-circle absolute text-[32rem] {scrollY < 50
                     ? 'opacity-5'
                     : 'opacity-0'} z-0 text-white -top-32 -left-64" />
-            <i
+            <i defer
                 class="fa-solid fa-circle absolute text-[32rem] {scrollY < 50
                     ? 'opacity-5'
                     : 'opacity-0'} z-0 text-white top-1/4 -right-64" />

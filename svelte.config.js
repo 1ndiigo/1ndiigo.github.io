@@ -16,7 +16,8 @@ const config = {
   kit: {
     adapter: adapter({
       pages: "dist",
-      assets: "dist"
+      assets: "dist",
+      
     }),
     paths: {
       // change below to your repo name
